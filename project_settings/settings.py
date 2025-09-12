@@ -315,8 +315,8 @@ RENDER = os.environ.get('RENDER', '').lower() == 'true'
 if RENDER:
     # Production settings
     ALLOWED_HOSTS = [
-        'your-backend-app-name.onrender.com',  # ← CHANGE THIS to your actual Render URL
-        'your-frontend-app-name.vercel.app',   # ← CHANGE THIS to your actual Vercel URL
+        'https://deepguard-backend-ny4m.onrender.com',  # ← CHANGE THIS to your actual Render URL
+        'https://deepguard.vercel.app',   # ← CHANGE THIS to your actual Vercel URL
         'localhost',
         '127.0.0.1'
     ]
@@ -406,13 +406,13 @@ os.makedirs(STATIC_ROOT, exist_ok=True)
 # CORS settings
 if RENDER:
     CORS_ALLOWED_ORIGINS = [
-        "https://your-frontend-app-name.vercel.app",  # ← CHANGE THIS to your Vercel URL
+        "https://deepguard.vercel.app",  # ← CHANGE THIS to your Vercel URL
         "http://localhost:3000",
         "http://127.0.0.1:3000",
     ]
     CSRF_TRUSTED_ORIGINS = [
-        "https://your-backend-app-name.onrender.com",  # ← CHANGE THIS to your Render URL
-        "https://your-frontend-app-name.vercel.app",   # ← CHANGE THIS to your Vercel URL
+        "https://deepguard-backend-ny4m.onrender.com",  # ← CHANGE THIS to your Render URL
+        "https://deepguard.vercel.app",   # ← CHANGE THIS to your Vercel URL
     ]
 else:
     CORS_ALLOW_ALL_ORIGINS = True
