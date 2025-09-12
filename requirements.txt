@@ -85,8 +85,8 @@ terminado==0.18.1
 testpath==0.6.0
 toml==0.10.2
 toolz==0.12.1
-torch==2.3.1
-torchvision==0.18.1
+torch==2.5.1
+torchvision==0.20.1
 tornado==6.4.1
 traitlets==5.14.3
 tzlocal==5.2
