@@ -130,29 +130,33 @@
 
 # Core Django
 Django==5.0.6
-asgiref==3.8.1
-sqlparse==0.5.0
 
-# CORS headers
-django-cors-headers==4.3.1
-
-# Static files serving
-whitenoise==6.6.0
-
-# Deep learning & computer vision (CPU build)
+# PyTorch (CPU-only build for Render)
 torch==2.5.1+cpu
 torchvision==0.20.1+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Numerical / ML dependencies
 numpy==1.26.4
 opencv-python==4.10.0.84
 Pillow==10.3.0
 
-# Face recognition
+# Face Recognition
 face-recognition==1.3.0
-dlib-bin==19.24.6  # prebuilt dlib, avoids compile issues
+dlib-bin==19.24.6
 
-# Other utilities
+# HTTP Requests
 requests==2.32.3
+
+# Django essentials
+asgiref==3.8.1
+sqlparse==0.5.0
 
 # Production server
 gunicorn==21.2.0
+
+# Static files
+whitenoise==6.6.0
+
+# CORS headers (if frontend is separate like Vercel)
+django-cors-headers==4.3.1
