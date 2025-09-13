@@ -457,6 +457,13 @@
 
 
 import os
+# Add to your settings.py
+import torch
+torch.set_num_threads(1)  # Limit PyTorch to 1 thread
+
+# Reduce OpenCV memory usage
+
+os.environ['OPENCV_IO_MAX_IMAGE_PIXELS'] = '1000000000'  # 1GB limit
 
 # Build paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

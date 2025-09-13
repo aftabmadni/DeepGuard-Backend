@@ -7,8 +7,10 @@ from torch.utils.data.dataset import Dataset
 import os
 import numpy as np
 import cv2
+
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
-# import face_recognition
 from torch.autograd import Variable
 import time
 import sys
