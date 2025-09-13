@@ -442,7 +442,7 @@ def predict_api(request):
         print(f"Saved video to {video_file_path}")
 
         # Process the video
-        result = process_video_prediction(video_file_path, sequence_length)
+        result = process_video_prediction(video_file_path, 10)
         print("Result from process_video_prediction:", result)
 
         # Return the filename for the frontend to access
