@@ -1,2 +1,90 @@
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /predict2/ HTTP/1.1" 200 1163
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_1.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_2.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_3.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_1.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_2.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_3.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_4.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_4.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_5.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_6.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_7.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_6.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_5.png HTTP/1.1" 404 28552
+- Broken pipe from ('127.0.0.1', 52058)
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_7.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_8.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_8.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_9.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_10.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_9.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_1.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_10.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_1.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_2.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_2.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_3.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_3.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_4.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_4.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_5.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_5.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_6.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_6.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_7.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_7.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_8.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_8.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_9.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_9.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_10.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_10.png HTTP/1.1" 404 28552
+Not Found: /media/uploaded_file_1757725835.mp4
+"GET /media/uploaded_file_1757725835.mp4 HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_1.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_2.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_4.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_3.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_5.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_1.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_2.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_6.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_3.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_4.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_5.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_6.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_7.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_8.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_7.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_9.png
+Not Found: /uploaded_images/uploaded_file_1757725835_cropped_faces_10.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_8.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_9.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_1.png
+- Broken pipe from ('127.0.0.1', 60557)
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_2.png
+"GET /uploaded_images/uploaded_file_1757725835_cropped_faces_10.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_1.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_2.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_4.png
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_3.png
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_5.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_4.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_6.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_3.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_7.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_5.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_8.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_6.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_7.png HTTP/1.1" 404 28552
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_8.png HTTP/1.1" 404 28552
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_9.png
+Not Found: /uploaded_images/uploaded_file_1757725835_preprocessed_10.png
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_9.png HTTP/1.1" 404 28552
+Not Found: /media/uploaded_file_1757725835.mp4
+"GET /uploaded_images/uploaded_file_1757725835_preprocessed_10.png HTTP/1.1" 404 28552
+"GET /media/uploaded_file_1757725835.mp4 HTTP/1.1" 404 28552
