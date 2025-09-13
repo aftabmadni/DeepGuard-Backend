@@ -426,7 +426,7 @@ if RENDER:
     SECURE_BROWSER_XSS_FILTER = True
     
     # Whitenoise configuration
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # Logging configuration
 if not DEBUG:
