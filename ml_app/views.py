@@ -407,7 +407,7 @@ import shutil
 import time
 import cv2
 from PIL import Image as pImage
-import face_recognition
+
 import torch
 from torchvision import transforms
 import torch.nn as nn
